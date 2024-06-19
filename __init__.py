@@ -23,7 +23,8 @@ folder_paths.folder_names_and_paths["facedetection_models"] = ([dir_facedetectio
 if os.path.exists("/stable-diffusion-cache/models"):
     folder_paths.add_model_folder_path('facerestore_models', '/stable-diffusion-cache/models/Codeformer')
     folder_paths.add_model_folder_path('facerestore_models', '/stable-diffusion-cache/models/GFPGAN')
-    folder_paths.add_model_folder_path('facedetection', '/stable-diffusion-cache/models/facedetection')
+    folder_paths.add_model_folder_path('facedetection_models', '/stable-diffusion-cache/models/facedetection')
+    folder_paths.add_model_folder_path('facedetection_models', '/stable-diffusion-cache/models/facedetection_models')
 
 def img2tensor(imgs, bgr2rgb=True, float32=True):
     """Numpy array to tensor.
